@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-color {
+  /* background-color: #f78da7;  */
+  background-color: rgb(252, 228, 243);
+}
+.logo-container {
+  text-align: center;
+  padding: 10px;
+}
+
+/* gift container start */
+
+.gift-order-placed {
+  display: flex;
+}
+.gift-order-first-half {
+  width: 50%;
+  text-align: center;
+}
+.gift-order-first-half h1 {
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 13px;
+}
+.gift-order-first-half h3 {
+  color: #000000;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 16px;
+  margin-top: 12px;
+}
+.gift-order-first-half img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.gift-order-second-half {
+  width: 50%;
+  text-align: center;
+  margin-left: 15px;
+}
+.gift-order-second-half h2 {
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.gift-order-second-half .button {
+  border: none;
+  background-color: #000000;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/* gift container end */
+
+.gift-details-container {
+  display: flex;
+  margin-top: 10px;
+}
+.gift-details-first-half {
+  width: 50%;
+}
+.gift-details-first-half iframe {
+  width: 100%;
+}
+.gift-details-second-half {
+  width: 50%;
+  margin-left: 15px;
+  text-align: center;
+}
+.gift-details-second-half h1 {
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 13px;
+  margin-top: 0;
+}
+.gift-details-second-half .button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  transition: all .3s;
+  font-weight: 900;
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* media query */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
