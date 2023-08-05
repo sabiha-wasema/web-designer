@@ -74,6 +74,8 @@
 }
 /* gift container end */
 
+/* gift detail section start */
+
 .gift-details-container {
   display: flex;
   margin-top: 10px;
@@ -110,6 +112,52 @@
   font-size: 16px;
   margin-top: 10px;
 }
+/* gift detail section end */
+
+/* package section start */
+.package-title {
+  text-align: center;
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 13px;
+  margin-top: 15px;
+}
+.package-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.package-container img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 25px;
+}
+.package-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-container h5 {
+  margin-bottom: 12px;
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  text-align: center;
+}
+.package-container p {
+  color: #000000;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* package section end */
 
 /* media query */
 @media (min-width: 768px) {
