@@ -158,6 +158,176 @@
 
 /* package section end */
 
+/* form container style start */
+.form-container h1 {
+  text-align: center;
+  color: #000000;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 12px;
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 12px;
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.form-container-details {
+  display: flex;
+}
+.form-container form h3 {
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 25px 0;
+  padding: 0;
+  color: #333;
+  margin-bottom: 25px;
+}
+.form-container-first-half {
+  width: 50%;
+}
+.form-container-first-half form input {
+  width: 100%;
+  padding: 13px 10px;
+  border: 1px solid #d4d4d4;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.form-container-first-half .required {
+  color: #404040;
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 0.3px;
+  font-family: inherit;
+  font-weight: inherit;
+  /* margin-bottom: 15px; */
+}
+.form-container-first-half .required::after {
+  content: " *";
+  color: red;
+  font-size: 16px;
+}
+.form-container-second-half {
+  width: 50%;
+  padding: 0 70px;
+}
+.form-container-second-half h3 {
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 25px 0;
+  padding: 0;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-container-second-half table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+.form-container-second-half table thead {
+  font-weight: 700;
+}
+.form-container-second-half table thead tr th {
+  padding: 15px 0;
+  border-bottom: 1px dashed #c2c0c0;
+}
+.form-container-second-half table tbody td img {
+  width: 25%;
+  height: 25%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.product-increase {
+  border: none;
+  width: 5%;
+  margin-right: 7px;
+}
+.form-container-second-half table tbody td {
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 15px;
+  color: #333;
+  padding: 15px 0;
+}
+.form-container-second-half table tbody tr {
+  padding: 15px 0;
+  border-bottom: 1px dashed #c2c0c0;
+}
+.form-container-second-half table tfoot tr {
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+.form-container-second-half table tfoot tr td {
+  padding: 15px 0;
+  font-weight: 700;
+}
+.add-product {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.form-container-second-half table thead tr th {
+  text-align: left;
+  font-size: 15px;
+  color: #404040;
+  font-family: "Hind Siliguri", Sans-serif;
+}
+
+.form-container-second-half h4 {
+  font-size: 15px;
+  color: #272626;
+  font-family: "Hind Siliguri", Sans-serif;
+  margin-bottom: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container-second-half p {
+  font-size: 12px;
+  color: #696969;
+  font-family: "Hind Siliguri", Sans-serif;
+  margin-bottom: 20px;
+}
+.form-container-second-half p a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-container-second-half i {
+  margin-right: 8px;
+}
+.form-container-second-half button {
+  width: 100%;
+  border: none;
+  background-color: #000000;
+  color: white;
+  padding: 18px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  transition: all .3s;
+  font-weight: 500;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* form container style end */
+
 /* footer section style start */
 
 .footer-bg {
