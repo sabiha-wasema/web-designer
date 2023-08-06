@@ -71,6 +71,10 @@
   display: inline-block;
   font-size: 16px;
 }
+.gift-order-second-half .button a {
+  text-decoration: none;
+  color: white;
+}
 /* gift container end */
 
 /* gift detail section start */
@@ -110,6 +114,10 @@
   border: none;
   font-size: 16px;
   margin-top: 10px;
+}
+.gift-details-second-half .button a {
+  text-decoration: none;
+  color: white;
 }
 /* gift detail section end */
 
@@ -160,8 +168,6 @@
 
 /* slider section style start */
 
-/* slider section style end */
-
 .special-gift-container h5 {
   margin-bottom: 12px;
   color: #f013c0;
@@ -210,6 +216,12 @@
   text-align: center;
   transition: all .3s;
 }
+.all-package-second-half button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* slider section style end */
 
 /* form container style start */
 .form-container h1 {
@@ -377,6 +389,20 @@
   border: none;
   font-size: 15px;
   margin-bottom: 20px;
+}
+.tool-section {
+  background-color: #ececec;
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.tooltipText {
+  background-color: #cecdcd;
+  padding: 10px;
+  border-radius: 3px;
+}
+.tooltipText p {
+  margin-bottom: 0;
 }
 
 /* form container style end */
