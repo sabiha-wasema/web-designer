@@ -10,7 +10,6 @@
 }
 
 .bg-color {
-  /* background-color: #f78da7;  */
   background-color: rgb(252, 228, 243);
 }
 .logo-container {
@@ -158,6 +157,35 @@
 }
 
 /* package section end */
+
+/* footer section style start */
+
+.footer-bg {
+  background-color: #e3ebf0;
+  margin-bottom: 25px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  text-align: center;
+}
+.footer-container img {
+  width: 128px;
+  height: 128px;
+  margin-top: 15px;
+}
+.footer-container p {
+  color: #f9007f;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* footer section style end */
 
 /* media query */
 @media (min-width: 768px) {
