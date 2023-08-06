@@ -158,6 +158,59 @@
 
 /* package section end */
 
+/* slider section style start */
+
+/* slider section style end */
+
+.special-gift-container h5 {
+  margin-bottom: 12px;
+  color: #f013c0;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 900;
+}
+.all-package {
+  display: flex;
+}
+.all-package h5 {
+  color: #000000;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-weight: 700;
+}
+.all-package-first-half {
+  width: 50%;
+  height: 70%;
+  text-align: center;
+}
+.all-package-first-half .telephone {
+  background-color: #000000;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  transition: all .3s;
+  border: none;
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+.all-package-second-half {
+  width: 50%;
+  text-align: center;
+}
+.all-package-second-half .package-price {
+  font-family: "Hind Siliguri", Sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  background-color: #f9007f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 3px;
+  text-align: center;
+  transition: all .3s;
+}
+
 /* form container style start */
 .form-container h1 {
   text-align: center;
